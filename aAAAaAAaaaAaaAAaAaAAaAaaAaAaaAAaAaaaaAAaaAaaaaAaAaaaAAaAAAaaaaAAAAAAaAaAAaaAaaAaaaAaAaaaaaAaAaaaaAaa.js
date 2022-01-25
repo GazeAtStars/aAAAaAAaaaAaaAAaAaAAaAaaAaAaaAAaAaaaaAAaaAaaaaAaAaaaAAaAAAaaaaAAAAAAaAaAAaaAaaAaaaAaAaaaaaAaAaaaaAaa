@@ -1,9 +1,9 @@
-function letter(letter) {
+function letter() {
     let str = "";
-    str += Math.random() > 0.5 ? letter.toLowerCase() : letter.toUpperCase()
+    for (let i = 0; i<10; i++) {
+        str += Math.random() > 0.5 ? "a".toLowerCase() : "a".toUpperCase()
+    }
     return str 
 }
 
-for (let i = 0; i<10; i++) {
-    console.log(letter("a"))
-}
+console.log(letter())
