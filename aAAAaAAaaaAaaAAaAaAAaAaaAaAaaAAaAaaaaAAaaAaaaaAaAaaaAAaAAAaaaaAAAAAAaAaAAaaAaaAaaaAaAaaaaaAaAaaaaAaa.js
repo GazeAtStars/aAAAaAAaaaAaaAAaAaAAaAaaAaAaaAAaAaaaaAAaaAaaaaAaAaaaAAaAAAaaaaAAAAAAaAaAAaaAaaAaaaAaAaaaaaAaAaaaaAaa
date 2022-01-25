@@ -4,6 +4,6 @@ function letter(letter) {
     return str 
 }
 
-for (let i = 0; i<Infinity; i++) {
+for (let i = 0; i<10; i++) {
     console.log(letter("a"))
 }
