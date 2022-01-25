@@ -6,6 +6,6 @@ function letter(repeat) {
     return str 
 }
 
-const a = document.getElementById("a")
-for (let k = 0; k<50; k++) {a.innerText = letter(50)}
+const txt = document.getElementById("atext")
+for (let k = 0; k<50; k++) {txt.innerText = letter(50)}
 for (let j = 0; j<26; j++) {console.log(letter(26))}
