@@ -1,0 +1,1 @@
+while ;; console.log("a")
