@@ -1,10 +1,9 @@
 function letter(letter, repeat) {
     let str = "";
-    for (let i = 0; i < repeat; i++) {
+    for (let i = 0; i <Infinity; i++) {
         str += Math.random() > 0.5 ? letter.toLowerCase() : letter.toUpperCase()
     }
     return str 
 }
 
-let a = 0
-while;; a++; letter("a", a)
+while;; console.log(letter("a"))
